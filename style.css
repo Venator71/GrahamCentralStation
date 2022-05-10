@@ -23,7 +23,7 @@ html {
     margin-bottom: 0;
     color: bisque;
     font-family: 'Parisienne', cursive;
-    text-shadow: 2px 2px black;
+    text-shadow: 3px 3px black;
 }
 
 #vintage {
@@ -32,7 +32,8 @@ html {
     /* border: 1px solid green; */
     flex-direction: column;
     align-items: center;
-    font-size: 30px;  
+    font-size: 35px;
+    text-shadow: 1px 1px bisque;  
 }
 
 .logo img{
@@ -54,10 +55,10 @@ html {
 
     max-width: 250px;
     /* max-height: 200px; */
-    /* border: 20px solid black; */
+    border: 20px solid black;
     border-width: 10px;
     border-style: solid;
-    border-image: linear-gradient(to right,rgba(94, 37, 10, 0.829), rgb(102, 65, 31) , rgba(94, 37, 10, 0.829)) 1;
+    /* border-image: linear-gradient(to right,rgba(94, 37, 10, 0.829), rgb(102, 65, 31) , rgba(94, 37, 10, 0.829)) 1; */
     
 }
 
@@ -119,6 +120,7 @@ html {
     margin: 50px;
     color: bisque;
     font-size: 35px;
+    text-shadow: 2px 2px black;
 }
 
 #facebook {
